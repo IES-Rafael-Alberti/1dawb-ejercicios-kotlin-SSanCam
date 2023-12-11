@@ -1,22 +1,25 @@
 fun main() {
 
     //TODO: Crea una función que pida un número y te muestre el resultado de duplicarlo.
-    fun ejemplo1(): Double {
-
+    fun ejemplo1(numero: Double): Double {
         try {
-            println("Introduce un número:\n")
-            val numeroIntroducido = readln().toDouble()
-            val numeroDoblado = (numeroIntroducido * 2)
+            val numeroDoblado = numero * 2
             return numeroDoblado
-
         } catch (e: NumberFormatException) {
-            println("Error: Número no válido.}")
+            println("Error: Número no válido.")
             return 0.0
         }
-
     }
-        //TODO: Ahora crea otra función que lo eleve al cuadrado y evite las excepciones.
-        //ejemplo2()
+    //TODO: Ahora crea otra función que lo eleve al cuadrado y evite las excepciones.
+    fun ejemplo2(numero: Double): Double {
+        try {
+            val numElevadoCuadrado = numero * numero
+            return numElevadoCuadrado
+        } catch (e: NumberFormatException) {
+            println("Error: Número no válido.")
+            return 0.0
+        }
+    }
 
         /* TODO:
      Mejorar la función anterior con lo siguiente:
@@ -44,6 +47,14 @@ fun main() {
     el mismo número porque se ha producido un error en su entrada.
     */
         //ejemplo5()
+    println("Introduce un número:\n")
+    val numeroIntroducido = readLine()?.toDouble() ?: throw IllegalArgumentException("")
 
+    val resultado_ejemplo_1 = ejemplo1(numeroIntroducido)
+    val resultado_ejemplo_2 = ejemplo2(numeroIntroducido)
+
+    println("Tu número es el: $numeroIntroducido\n" +
+            "El doble es: $resultado_ejemplo_1\n" +
+            "Elevado al cuadrado es: $resultado_ejemplo_2\n")
 }
 
