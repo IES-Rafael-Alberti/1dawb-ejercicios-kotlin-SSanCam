@@ -1,11 +1,14 @@
+import java.lang.NumberFormatException
+
 fun main() {
 
     //TODO: Crea una función que pida un número y te muestre el resultado de duplicarlo.
     fun ejemplo1(numero: Double): Double {
+
         try {
-            val numeroDoblado = numero * 2
-            return numeroDoblado
-        } catch (e: NumberFormatException) {
+            return numero * 2
+        }
+        catch (e: NumberFormatException) {
             println("Error: Número no válido.")
             return 0.0
         }
@@ -26,7 +29,26 @@ fun main() {
      1. Crea un bucle, dónde se muestre un índice del número introducido cada vez y
      salga si pulsa ENTER, es decir, la cadena vacía.
      */
-        //ejemplo3()
+    fun ejemplo3() {
+        println("Introduce un numero:\n")
+            var numeroInput = readLine()
+            var index = 1
+
+            while (numero != null) && (numero != ""){
+                try {
+                    val numero = numeroInput.toDouble()
+                    val numElevadoCuadrado = numero * numero
+                    println("$index: $numElevadoCuadrado")
+                    index ++
+                }
+                catch (e: NumberFormatException){
+                    println("Numero no valido.")
+                }
+
+                println("Introduce otro numero o presiona enter para finalizar")
+                numeroInput = readLine()
+            }
+    }
 
         /* TODO:
     Mejorar la función anterior con lo siguiente:
@@ -47,14 +69,20 @@ fun main() {
     el mismo número porque se ha producido un error en su entrada.
     */
         //ejemplo5()
+
+
+    //USO DE LAS FUNCIONES DE LOS EJEMPLOS//
     println("Introduce un número:\n")
     val numeroIntroducido = readLine()?.toDouble() ?: throw IllegalArgumentException("")
 
-    val resultado_ejemplo_1 = ejemplo1(numeroIntroducido)
-    val resultado_ejemplo_2 = ejemplo2(numeroIntroducido)
+    val resultadoEjemplo1 = ejemplo1(numeroIntroducido)
+    val resultadoEjemplo2 = ejemplo2(numeroIntroducido)
 
     println("Tu número es el: $numeroIntroducido\n" +
-            "El doble es: $resultado_ejemplo_1\n" +
-            "Elevado al cuadrado es: $resultado_ejemplo_2\n")
+            "El doble es: $resultadoEjemplo1\n" +
+            "Elevado al cuadrado es: $resultadoEjemplo2\n")
+
+    var resultadoEjemplo3 = ejemplo3()
+    println(resultadoEjemplo3)
 }
 
