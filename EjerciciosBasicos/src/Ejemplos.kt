@@ -28,15 +28,14 @@ fun main() {
      1. Crea un bucle, dónde se muestre un índice del número introducido cada vez y
      salga si pulsa ENTER, es decir, la cadena vacía.
      */
-    fun ejemplo3() {
-        println("Introduce un numero:\n")
-            var numeroInput = readLine()
+    fun ejemplo3(numero: Double) {
+
+        println("Tu número es $numero:\n")
             var index = 1
 
-            while (numero != null) && (numero != ""){
+            while (numero != null || numero.isNotEmpty()){
                 try {
-                    val numero = numeroInput.toDouble()
-                    val numElevadoCuadrado = numero * numero
+                    var numElevadoCuadrado = numero * numero
                     println("$index: $numElevadoCuadrado")
                     index ++
                 }
@@ -44,8 +43,8 @@ fun main() {
                     println("Numero no valido.")
                 }
 
-                println("Introduce otro numero o presiona enter para finalizar")
-                numeroInput = readLine()
+                println("Introduce otro numero o presiona \'ENTER\' para finalizar")
+                var numero = readLine()
             }
     }
 
@@ -81,7 +80,7 @@ fun main() {
             "El doble es: $resultadoEjemplo1\n" +
             "Elevado al cuadrado es: $resultadoEjemplo2\n")
 
-    var resultadoEjemplo3 = ejemplo3()
+    var resultadoEjemplo3 = ejemplo3(5.00)
     println(resultadoEjemplo3)
 }
 
