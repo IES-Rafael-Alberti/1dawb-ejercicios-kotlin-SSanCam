@@ -3,7 +3,7 @@ fun main() {
 
     //TODO: Crea una función que pida un número y te muestre el resultado de duplicarlo.
     /*
-    fun ejemplo1(numero: Double): Double {
+    fun ejemplo1(numero: Int): Int {
 
 
         try {
@@ -18,15 +18,11 @@ fun main() {
 
     //TODO: Ahora crea otra función que lo eleve al cuadrado y evite las excepciones.
     /*
-    fun ejemplo2(numero: Double): Double {
+    fun ejemplo2(numero: Int): Int{
 
-        try {
             val numElevadoCuadrado = numero * numero
             return numElevadoCuadrado
-        } catch (e: NumberFormatException) {
-            println("Error: Número no válido.")
-            return 0.0
-        }
+
     }
     */
 

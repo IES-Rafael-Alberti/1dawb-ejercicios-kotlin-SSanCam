@@ -1,8 +1,11 @@
 fun main(){
     //USO DE LAS FUNCIONES DE LOS EJEMPLOS//
     //RECIBIMOS POR TECLADO UN NUMERO PEDIDO AL USUARIO, QUE VAMOS A USAR EN LOS EJEMPLOS 1 Y 2
-    println("Introduce un número:\n")
-    val numeroIntroducido = readlnOrNull()?.toDouble() ?: throw IllegalArgumentException("")
+    try {
+        println("Introduce un número:\n")
+        val numeroIntroducido = readlnOrNull()?.toInt() ?: throw IllegalArgumentException("")
+
+
 
     //RECIBIMOS LOS DATOS QUE DEVUELVEN LAS FUNCIONES ejemplo1 Y ejemplo2
     //EJEMPLO_01
@@ -18,5 +21,8 @@ fun main(){
     //EJEMPLO_03
     val resultadoEjemplo3 = ejemplo3()
     println(resultadoEjemplo3)
-
+    }
+    catch (e: NumberFormatException){
+        println("Debes introducir un número entero.")
+    }
 }
