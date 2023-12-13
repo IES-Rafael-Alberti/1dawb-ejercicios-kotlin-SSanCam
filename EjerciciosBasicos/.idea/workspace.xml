@@ -5,15 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ac45e4b-82b6-4774-aa76-07877c12cd7e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Ejemplo01.tk.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejemplo02.tk.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejemplo03.tk.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejemplo04.tk.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.tk.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pruebasTeoria.py.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/1dawb-ejercicios-kotlin-SSanCam.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/1dawb-ejercicios-kotlin-SSanCam.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ejemplos.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejemplos.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -22,23 +36,27 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2ZPrq2UV2QxzdlUnHg65XYlYaqJ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Kotlin.EjemplosKt.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Kotlin.EjemplosKt.executor": "Run",
+    "Kotlin.PruebasTeoria_pyKt.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>

@@ -2,7 +2,9 @@
 fun main() {
 
     //TODO: Crea una función que pida un número y te muestre el resultado de duplicarlo.
+    /*
     fun ejemplo1(numero: Double): Double {
+
 
         try {
             return numero * 2
@@ -12,8 +14,12 @@ fun main() {
             return 0.0
         }
     }
+    */
+
     //TODO: Ahora crea otra función que lo eleve al cuadrado y evite las excepciones.
+    /*
     fun ejemplo2(numero: Double): Double {
+
         try {
             val numElevadoCuadrado = numero * numero
             return numElevadoCuadrado
@@ -22,22 +28,28 @@ fun main() {
             return 0.0
         }
     }
+    */
 
         /* TODO:
      Mejorar la función anterior con lo siguiente:
      1. Crea un bucle, dónde se muestre un índice del número introducido cada vez y
      salga si pulsa ENTER, es decir, la cadena vacía.
      */
-    fun ejemplo3() {
+    /*
+     fun ejemplo3() {
         print("Introduce un numero:")
-        val numero = readln().toDouble()
-        val numeroInput = ejemplo2(numero)
+        var numero = readlnOrNull()
         var index = 1
 
-            while (numeroInput != null){
+            while (numero != null){
+
                 try {
-                    val numeroInput = numeroInput.toDouble()
-                    val numElevadoCuadrado = numeroInput * numeroInput
+                    /*SI EL VALOR DE numero NO ES NULO, LE DAMOS EL FORMATO DEL TIPO DE DATO
+                    QUE QUEREMOS, EN ESE CASO DOUBLE*/
+                    var numeroFormat = numero.toDouble()
+                    //ELEVAMOS AL CUADRADO EL NUMERO INTRODUCIDO
+                    var numElevadoCuadrado = numeroFormat * numeroFormat
+                    //IMPRIMIMOS CADA OPERACION QUE REALICEMOS, MIENTRAS SE INTRODUCEN NUMEROS
                     println("$index: $numElevadoCuadrado")
                     index ++
 
@@ -46,18 +58,19 @@ fun main() {
                     println("Debe introducir un número.")
                 }
                 println("Introduce otro numero o presiona \'ENTER\' para finalizar")
-                val numeroInput = readln()
+                var numero = readln()
 
-                if (numeroInput == ""){
-                    val numeroInput = ""
+                /*AL METER UNA CADENA VACIA (PRESIONANDO ENTER) CUMPLIMOS LA CONDICION Y SALDREMOS
+                DEL PROGRAMA.*/
+                if (numero == ""){
                     println("Saliendo del programa")
+                    break
                 }else{
                     continue
                 }
             }
-
-
     }
+    */
 
         /* TODO:
     Mejorar la función anterior con lo siguiente:
@@ -79,19 +92,5 @@ fun main() {
     */
         //ejemplo5()
 
-
-    //USO DE LAS FUNCIONES DE LOS EJEMPLOS//
-    println("Introduce un número:\n")
-    val numeroIntroducido = readLine()?.toDouble() ?: throw IllegalArgumentException("")
-
-    val resultadoEjemplo1 = ejemplo1(numeroIntroducido)
-    val resultadoEjemplo2 = ejemplo2(numeroIntroducido)
-
-    println("Tu número es el: $numeroIntroducido\n" +
-            "El doble es: $resultadoEjemplo1\n" +
-            "Elevado al cuadrado es: $resultadoEjemplo2\n")
-
-    var resultadoEjemplo3 = ejemplo3()
-    println(resultadoEjemplo3)
 }
 
