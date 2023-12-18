@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ac45e4b-82b6-4774-aa76-07877c12cd7e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/cuadrado.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ejemplo4.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ejemplo01.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejemplo01.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ejemplo02.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejemplo02.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ejemplo03.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejemplo03.kt" afterDir="false" />
@@ -39,11 +42,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "Kotlin.Ejemplo01_tkKt.executor": "Run",
     "Kotlin.Ejemplo02_tkKt.executor": "Run",
     "Kotlin.Ejemplo03_tkKt.executor": "Run",
     "Kotlin.EjemplosKt.executor": "Run",
-    "Kotlin.MainKt.executor": "Debug",
+    "Kotlin.MainKt.executor": "Run",
     "Kotlin.Main_tkKt.executor": "Run",
     "Kotlin.PruebasTeoria_pyKt.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -94,5 +98,19 @@
       <updated>1702334743298</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

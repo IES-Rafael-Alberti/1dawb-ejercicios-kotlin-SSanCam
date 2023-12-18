@@ -5,7 +5,9 @@ fun ejemplo1(): Int? {
 
         println("Ingresa un número entero (o pulsa ENTER para finalizar): ")
         val numero = readln().trim()
-        return if (numero.isNotBlank()) numero.toInt() else null
+        return if (numero.isNotBlank())
+                    numero.toInt()
+                else null
 
     }catch (e: NumberFormatException){
         println("Formato no permitido.")
