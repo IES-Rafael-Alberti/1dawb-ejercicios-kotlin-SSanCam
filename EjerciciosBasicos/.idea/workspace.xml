@@ -5,20 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ac45e4b-82b6-4774-aa76-07877c12cd7e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejemplo01.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/1dawb-ejercicios-kotlin-SSanCam.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/1dawb-ejercicios-kotlin-SSanCam.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ejemplo02.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ejemplo01.tk.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ejemplo02.tk.kt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ejemplo03.tk.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ejemplo04.tk.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ejemplo05.tk.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ejemplos.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejemplos.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.tk.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pruebasTeoria.py.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ejemplo01.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejemplo01.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +44,7 @@
     "Kotlin.Ejemplo02_tkKt.executor": "Run",
     "Kotlin.Ejemplo03_tkKt.executor": "Run",
     "Kotlin.EjemplosKt.executor": "Run",
+    "Kotlin.MainKt.executor": "Run",
     "Kotlin.Main_tkKt.executor": "Run",
     "Kotlin.PruebasTeoria_pyKt.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
