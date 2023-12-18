@@ -1,5 +1,5 @@
 //TODO: Crea una función que pida un número y te muestre el resultado de duplicarlo.
-fun ejemplo1(): Int {
+/*fun ejemplo1(): Int {
 
     try {
 
@@ -8,8 +8,9 @@ fun ejemplo1(): Int {
 
         return numero * 2
 
-    }catch (Exception){
+    }catch (exception){
         println("ERROR - 404")
     }
 
 }
+*/

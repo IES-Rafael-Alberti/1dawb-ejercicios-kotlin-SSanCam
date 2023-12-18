@@ -1,12 +1,25 @@
 fun main() {
 
     //TODO: Crea una función que pida un número y te muestre el resultado de duplicarlo.
+
     //ejemplo1()
 
     //TODO: Ahora crea otra función que lo eleve al cuadrado y evite las excepciones.
     //ejemplo2()
 
     /* TODO:
+    /*
+    fun ejemplo1() {
+    }
+    */
+
+    //TODO: Ahora crea otra función que lo eleve al cuadrado y evite las excepciones.
+    /*
+    fun ejemplo2() {
+    }
+    */
+
+        /* TODO:
      Mejorar la función anterior con lo siguiente:
      1. Crea un bucle, dónde se muestre un índice del número introducido cada vez y
      salga si pulsa ENTER, es decir, la cadena vacía.
@@ -32,6 +45,7 @@ fun main() {
     el mismo número porque se ha producido un error en su entrada.
     */
     //ejemplo5()
+        }
 
+     */
 }
-
