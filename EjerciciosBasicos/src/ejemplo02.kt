@@ -7,6 +7,7 @@ fun ejemplo2(numero: Int): Int {
 
     }catch (e: NumberFormatException){
         println("Datos introducidos incorrectos.")
+        return 0
     }
-    return 0
+
 }

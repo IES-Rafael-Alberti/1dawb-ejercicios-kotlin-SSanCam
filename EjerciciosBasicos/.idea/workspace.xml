@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ac45e4b-82b6-4774-aa76-07877c12cd7e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ejemplo02.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ejemplo03.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pruebas.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ejemplo01.tk.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ejemplo03.tk.kt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ejemplo01.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejemplo01.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ejemplo02.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejemplo02.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="Kotlin File" />
       </list>
     </option>
@@ -44,7 +45,7 @@
     "Kotlin.Ejemplo02_tkKt.executor": "Run",
     "Kotlin.Ejemplo03_tkKt.executor": "Run",
     "Kotlin.EjemplosKt.executor": "Run",
-    "Kotlin.MainKt.executor": "Run",
+    "Kotlin.MainKt.executor": "Debug",
     "Kotlin.Main_tkKt.executor": "Run",
     "Kotlin.PruebasTeoria_pyKt.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -64,6 +65,20 @@
       <recent name="C:\Users\Sara S Camilleri\Desktop\repos\1dawb-ejercicios-kotlin-SSanCam\EjerciciosBasicos\src" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainKt" />
+      <module name="EjerciciosBasicos" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.MainKt" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -81,5 +96,16 @@
       <updated>1702334743298</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/Main.kt</url>
+          <line>1</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

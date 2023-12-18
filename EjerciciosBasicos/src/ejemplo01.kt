@@ -1,23 +1,14 @@
 import kotlin.reflect.typeOf
 
 //TODO: Crea una función que pida un número y te muestre el resultado de duplicarlo.
-fun ejemplo1(): Int {
+fun ejemplo1(): Pair<Int, Boolean> {
 
     try {
-
         println("Ingresa un número entero: ")
-        val numeroIntroducido = readlnOrNull()
-
-
-        if (numeroIntroducido != null){
-            val numero = numeroIntroducido.toInt()
-            return numero * 2
-        }
-
+        return readln().toInt() to true
     }catch (e: NumberFormatException){
         println("Formato no permitido.")
+        return 0 to false
     }
-
-    return 0
 }
 
