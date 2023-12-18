@@ -3,26 +3,13 @@ fun main() {
 
     //TODO: Crea una función que pida un número y te muestre el resultado de duplicarlo.
     /*
-    fun ejemplo1(numero: Int): Int {
-
-
-        try {
-            return numero * 2
-        }
-        catch (e: NumberFormatException) {
-            println("Error: Número no válido.")
-            return 0.0
-        }
+    fun ejemplo1() {
     }
     */
 
     //TODO: Ahora crea otra función que lo eleve al cuadrado y evite las excepciones.
     /*
-    fun ejemplo2(numero: Int): Int{
-
-            val numElevadoCuadrado = numero * numero
-            return numElevadoCuadrado
-
+    fun ejemplo2() {
     }
     */
 

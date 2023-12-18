@@ -3,6 +3,11 @@ Mejorar la función anterior con lo siguiente:
 1. Crea un bucle, dónde se muestre un índice del número introducido cada vez y
 salga si pulsa ENTER, es decir, la cadena vacía.
 */
+/* TODO:
+         Mejorar la función anterior con lo siguiente:
+         1. Crea un bucle, dónde se muestre un índice del número introducido cada vez y
+         salga si pulsa ENTER, es decir, la cadena vacía.
+         */
 fun ejemplo3() {
     //RECIBIMOS EL DATO POR TECLADO
     print("Introduce un numero:")
