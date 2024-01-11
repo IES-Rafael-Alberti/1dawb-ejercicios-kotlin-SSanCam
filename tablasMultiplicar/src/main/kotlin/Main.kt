@@ -31,7 +31,9 @@ fun pedirNum(): Int {
      * @return Boolean - true/false dependiendo de la respuesta válida a la pregunta
      */
 fun pregunta(): Boolean {
-    println("¿Desea generar otra tabla de multiplicación? (s/n)")
+
+    try {
+        println("¿Desea generar otra tabla de multiplicación? (s/n)")
         var respuesta = readln().toLowerCase()
 
         while (respuesta != "s" && respuesta != "n"){
@@ -45,6 +47,10 @@ fun pregunta(): Boolean {
             println("Saliendo del programa.")
             return false
         }
+    }catch (e: IllegalArgumentException){
+        println("ERROR - 404")
+        return false
+    }
 }
 
     fun main() {
