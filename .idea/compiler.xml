@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="ejBasicosKotlin.main" target="21" />
+      <module name="ejBasicosKotlin.test" target="21" />
+      <module name="EjerciciosBasicos" target="21" />
+      <module name="EjerciciosUnidad01" target="21" />
+      <module name="EjerciciosUnidad01.main" target="21" />
+      <module name="EjerciciosUnidad01.test" target="21" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
